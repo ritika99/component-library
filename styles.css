@@ -2,8 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
 
+:root {
+    --primary-color: #60A5FA;
+}
+
 body {
     font-family: 'Bitter', serif;
+}
+
+hr {
+    margin: 2rem 0rem;
 }
 
 /* container */
@@ -16,3 +24,25 @@ body {
     max-width: 600px;
     margin: auto;
 }
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.link-secondary {
+    border: 0.5px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+}
+
+/* BEM naming conventions in CSS */
+
+
