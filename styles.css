@@ -5,6 +5,7 @@
 :root {
     --primary-color: #60A5FA;
     --dark-blue: #6B7280;
+    --pastel-blue: #EFF6FF;
 }
 
 body {
@@ -86,6 +87,8 @@ hr {
     text-decoration: underline;
 }
 
+/* header */
+
 .header {
     padding: 2rem;
 }
@@ -104,4 +107,20 @@ hr {
 
 .header-heading-inverted {
     color: var(--primary-color);
+}
+
+/* sections */
+.section {
+    padding: 1.5rem;
+}
+.section h1 {
+    text-align: center;
+}
+
+.section p {
+    text-align: justify;
+}
+
+.section-inverted {
+    background-color: var(--pastel-blue);
 }
