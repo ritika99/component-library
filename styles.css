@@ -4,6 +4,7 @@
 
 :root {
     --primary-color: #60A5FA;
+    --dark-blue: #6B7280;
 }
 
 body {
@@ -63,7 +64,7 @@ hr {
     border-bottom-left-radius: 2rem;
 }
 
-.navigation .nav-brand{
+.nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
     display: inline;
@@ -74,13 +75,33 @@ hr {
     color: white;
 }
 
-.navigation .nav-pills{
+.nav-pills {
     float: right;
     display: inline;
     margin: auto;
 }
 
-.navigation .link-active{
+.link-active {
     font-weight: bold;
     text-decoration: underline;
+}
+
+.header {
+    padding: 2rem;
+}
+
+.header-img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.header-heading {
+    color: var(--dark-blue);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.header-heading-inverted {
+    color: var(--primary-color);
 }
