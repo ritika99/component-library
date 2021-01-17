@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Bitter', serif;
+    margin: auto;
 }
 
 hr {
@@ -61,7 +62,7 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1.5rem 0.5rem;
+    padding: 2rem 0.5rem;
     border-bottom-left-radius: 1.5rem;
 }
 
@@ -129,12 +130,18 @@ hr {
     background-color: var(--primary-color);
     border-top-right-radius: 1.5rem;
     color: white;
-    padding: 1.5rem 0.5rem;
+    padding: 1.5rem 0rem;
     text-align: center;
 }
 
-.footer ul {
+.footer-heading {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.footer-pills {
     padding-left: 0rem;
+    margin: auto;
 }
 
 .footer .link {
