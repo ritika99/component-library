@@ -28,7 +28,7 @@ hr {
 /* links */
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .link-primary {
@@ -53,4 +53,34 @@ hr {
 .list-item-inline {
     display: inline;
     padding: 0rem 1rem;
+}
+
+/* nav */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.5rem 0.5rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: inline;
+    padding-left: 1rem;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-pills{
+    float: right;
+    display: inline;
+    margin: auto;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+    text-decoration: underline;
 }
