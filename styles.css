@@ -62,7 +62,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1.5rem 0.5rem;
-    border-bottom-left-radius: 2rem;
+    border-bottom-left-radius: 1.5rem;
 }
 
 .nav-brand {
@@ -88,7 +88,6 @@ hr {
 }
 
 /* header */
-
 .header {
     padding: 2rem;
 }
@@ -124,3 +123,25 @@ hr {
 .section-inverted {
     background-color: var(--pastel-blue);
 }
+
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    border-top-right-radius: 1.5rem;
+    color: white;
+    padding: 1.5rem 0.5rem;
+    text-align: center;
+}
+
+.footer ul {
+    padding-left: 0rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+
+
+
+
